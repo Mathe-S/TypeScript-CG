@@ -2,3 +2,5 @@ node_modules
 dev.js
 dist
 .cache
+.DS_Store
+build
