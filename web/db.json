@@ -1,13 +1,11 @@
 {
-  "users": [
-    {
-      "name": "Mathe",
+  "users": [{
+      "id": 1,
       "age": 20,
-      "id": 1
+      "name": "afefa"
     },
     {
-      "id": 2,
-      "name": "Doe"
+      "id": 2
     }
   ]
 }
