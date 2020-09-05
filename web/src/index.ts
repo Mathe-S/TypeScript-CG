@@ -1,9 +1,16 @@
+import { UserEdit } from "./View/UserEdit";
 import { User } from "./models/User";
 
-const user = User.buildUser({ id: 1 });
-
-user.on("change", () => {
-  console.log(user);
+const user = User.buildUser({
+  name: "max",
+  age: 21,
 });
 
-user.fetch();
+const root = document.getElementById("root");
+
+if (root) {
+  const userForm = new UserEdit(root, user);
+
+  console.log(userForm);
+  userForm.render();
+}

@@ -1,11 +1,34 @@
 {
-  "users": [{
+  "users": [
+    {
       "id": 1,
       "age": 20,
       "name": "afefa"
     },
     {
-      "id": 2
+      "id": 2,
+      "age": 32,
+      "name": "awefw"
+    },
+    {
+      "name": "max",
+      "age": 21,
+      "id": 3
+    },
+    {
+      "name": "max",
+      "age": 21,
+      "id": 4
+    },
+    {
+      "name": "max",
+      "age": 60,
+      "id": 5
+    },
+    {
+      "name": "Mathusi",
+      "age": 69,
+      "id": 6
     }
   ]
 }
